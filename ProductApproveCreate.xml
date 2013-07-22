@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<properties>
+<entry key="eventID">2262548</entry>
+<entry key="eventType">APPROVECREATED</entry>
+<entry key="nodeID">ExampleProduct123</entry>
+<entry key="nodeType">product</entry>
+<entry key="eventCreationTime">2013-01-11 15:56:56.0</entry>
+<entry key="messageCreationTime">2013-01-11 15:56:58.715</entry>
+</properties>
+-->
+<!-- Configuration:
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation  ExportDeletedData="true" ResolveInlineRefs="true" FollowOverrideSubProducts="false" ExportDerivedAttrs="true">
+<DeleteProducts/>
+<Classifications ExportSize="Minimum">
+  <Classification IncludeParent="true"/>
+</Classifications>
+<Products ExportSize="Minimum">
+  <Product IncludeParent="true">
+    <Name/>
+    <AttributeLink/>
+    <ClassificationReference/>
+    <OverrideSubProduct/>
+    <ProductCrossReference/>
+    <AssetCrossReference/>
+    <Values/>
+    <CustomValues/>
+   </Product>
+  </Products>
+</STEP-ProductInformation>
+Export from ExampleProduct123
+Effective date: 2013-01-11 15:56:58
+Classifications All
+Products "ExampleProduct123"
+Assets All
+Tag conversion enabled: None
+-->
+<STEP-ProductInformation ExportTime="2013-01-11 15:56:59" ExportContext="defaultcontext" ContextID="defaultcontext" WorkspaceID="Approved">
+  <Qualifiers>
+    <Qualifier ID="std.media.all">
+      <DimensionPointLink DimensionPointID="std.media.all"/>
+      <Context ID="GL" Priority="1"/>
+    </Qualifier>
+    <Qualifier ID="std.lang.all">
+      <DimensionPointLink DimensionPointID="std.lang.all"/>
+      <Context ID="GL" Priority="3"/>
+    </Qualifier>
+    <Qualifier ID="Qualifier root">
+      <DimensionPointLink DimensionPointID="Qualifier root"/>
+      <Context ID="GL" Priority="4"/>
+    </Qualifier>
+    <Qualifier ID="std.brand.all">
+      <DimensionPointLink DimensionPointID="std.brand.all"/>
+      <Context ID="GL" Priority="2"/>
+    </Qualifier>
+  </Qualifiers>
+  <Classifications>
+    <Classification ID="Classification 1 root" UserTypeID="Classification 1 user-type root" Selected="false">
+      <Name>Classification 1 root</Name>
+      <Classification ID="Outlet Groups" UserTypeID="Outlet Group: Level 0" Selected="false">
+        <Name>Outlet Groups</Name>
+        <Classification ID="Outlet Group Scope.7059" UserTypeID="Outlet Group: Level 1" Selected="false">
+          <Name>Brand Aligned</Name>
+          <Classification ID="Outlet Group.256703" UserTypeID="Outlet Group: Level 2" Selected="false">
+            <Name>All Bar One</Name>
+            <Classification ID="Outlet Group.257009" UserTypeID="Outlet Group: Level 3" Selected="false" Referenced="true">
+              <Name>All Bar One Drink</Name>                <ClassificationCrossReference ClassificationID="Menu Name.257193" Type="Outlet Group - Menu">
+                  <MetaData>
+  <Value AttributeID="Outlet Group - Menu End Date">2012-12-31</Value>
+  <Value AttributeID="Outlet Group - Menu Start Date">2012-05-04</Value>
+</MetaData>
+                </ClassificationCrossReference>
+
+              <MetaData>
+                <Value AttributeID="Group Code">ST - All Bar One Drink</Value>
+                <Value AttributeID="Transfer Group">Yes</Value>
+              </MetaData>
+            </Classification>
+            <Classification ID="Outlet Group.266470" UserTypeID="Outlet Group: Level 3" Selected="false" Referenced="true">
+              <Name>All Bar One LN12</Name>                <ClassificationCrossReference ClassificationID="Menu Name.256727" Type="Outlet Group - Menu">
+                  <MetaData>
+  <Value AttributeID="Outlet Group - Menu End Date">2012-12-31</Value>
+  <Value AttributeID="Outlet Group - Menu Start Date">2012-05-02</Value>
+</MetaData>
+                </ClassificationCrossReference>
+
+              <MetaData>
+                <Value AttributeID="Group Code">ST - All Bar One LN12</Value>
+                <Value AttributeID="Transfer Group">Yes</Value>
+              </MetaData>
+            </Classification>
+          </Classification>
+        </Classification>
+      </Classification>
+      <Classification ID="Outlet Reporting" UserTypeID="Outlet Reporting: Level 0" Selected="false">
+        <Name>Outlet Reporting</Name>
+        <MetaData>
+          <Value AttributeID="4849">Or</Value>
+        </MetaData>
+        <Classification ID="Outlet Reporting-L1.279197" UserTypeID="Outlet Reporting: Level 1" Selected="false">
+          <Name>Trading Estate (UK)</Name>
+          <MetaData>
+            <Value AttributeID="MAB Code">2</Value>
+            <Value AttributeID="4849">Gr</Value>
+          </MetaData>
+          <Classification ID="Outlet Reporting-L2.279928" UserTypeID="Outlet Reporting: Level 2" Selected="false">
+            <Name>Susan Martindale</Name>
+            <MetaData>
+              <Value AttributeID="MAB Code">207</Value>
+              <Value AttributeID="4849">Bo</Value>
+            </MetaData>
+            <Classification ID="Outlet Reporting-L3.279944" UserTypeID="Outlet Reporting: Level 3" Selected="false">
+              <Name>All Bar One</Name>
+              <MetaData>
+                <Value AttributeID="MAB Code">221</Value>
+                <Value AttributeID="4849">Ar</Value>
+              </MetaData>
+              <Classification ID="Outlet Reporting-L4.279970" UserTypeID="Outlet Reporting: Level 4" Selected="false">
+                <Name>Susan Chappell</Name>
+                <MetaData>
+                  <Value AttributeID="MAB Code">160</Value>
+                  <Value AttributeID="4849">Rd</Value>
+                </MetaData>
+                <Classification ID="Outlet Reporting-L5.280068" UserTypeID="Outlet Reporting: Level 5" Selected="false" Referenced="true">
+                  <Name>Alexandra Norris</Name>
+                  <MetaData>
+                    <Value AttributeID="MAB Code">302</Value>
+                    <Value AttributeID="4849">Di</Value>
+                  </MetaData>
+                </Classification>
+                <Classification ID="Outlet Reporting-L5.306450" UserTypeID="Outlet Reporting: Level 5" Selected="false" Referenced="true">
+                  <Name>ExampleClassification123</Name>
+                  <MetaData>
+                    <Value AttributeID="MAB Code">123</Value>
+                  </MetaData>
+                </Classification>
+              </Classification>
+            </Classification>
+          </Classification>
+        </Classification>
+      </Classification>
+    </Classification>
+  </Classifications>
+  <Products>
+    <Product ID="Product hierarchy root" UserTypeID="Product user-type root" Selected="false">
+      <Name>Primary Product Hierarchy</Name>
+      <Values>
+        <Value AttributeID="Preview" Derived="true" DerivedContextID="GL">http://mabprestepapp.stibo.corp/restapi/products/Product hierarchy root?xslt=</Value>
+      </Values>
+      <Product ID="Mitchells &amp; Butlers" UserTypeID="Company" Selected="false">
+        <Name>Mitchells &amp; Butlers</Name>          <AttributeLink AttributeID="Bulk Approval Date" Mandatory="true">
+          </AttributeLink>
+
+        <Values>
+          <Value AttributeID="Bulk Approval Date">2012-04-26 12:54:44</Value>
+          <Value AttributeID="Preview" Derived="true" DerivedContextID="GL">http://mabprestepapp.stibo.corp/restapi/products/Mitchells &amp; Butlers?xslt=</Value>
+        </Values>
+        <Product ID="Outlets" UserTypeID="Outlet: Level 0" Selected="false">
+          <Name>Outlets</Name>            <AttributeLink AttributeID="Brand" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Catering Style" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Check Payee">
+            </AttributeLink>
+            <AttributeLink AttributeID="Date Open">
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Address Line 1">
+              <MetaData>
+                <Value AttributeID="4879">0010</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Address Line 2">
+              <MetaData>
+                <Value AttributeID="4879">0020</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Address Line 3">
+              <MetaData>
+                <Value AttributeID="4879">0030</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Address Line 4">
+              <MetaData>
+                <Value AttributeID="4879">0040</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Address Line 5">
+              <MetaData>
+                <Value AttributeID="4879">0050</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Address Line 6">
+              <MetaData>
+                <Value AttributeID="4879">0060</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Population Size">
+            </AttributeLink>
+            <AttributeLink AttributeID="Till Type" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Trading Status" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Category Code">
+            </AttributeLink>
+            <AttributeLink AttributeID="Census Enumeration District">
+            </AttributeLink>
+            <AttributeLink AttributeID="Cost Centre Type" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Drinks Supplier" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="EPOS Implemented Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="EPOS Implemented Indicator">
+            </AttributeLink>
+            <AttributeLink AttributeID="ITV Region">
+            </AttributeLink>
+            <AttributeLink AttributeID="Mangd Investment Flag Code" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="National Grid Reference">
+            </AttributeLink>
+            <AttributeLink AttributeID="Number of Licences">
+            </AttributeLink>
+            <AttributeLink AttributeID="Segment" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Type of Trade">
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Email" Mandatory="true">
+              <MetaData>
+                <Value AttributeID="4879">0110</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Phone Number" Mandatory="true">
+              <MetaData>
+                <Value AttributeID="4879">0080</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Country Code" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Post Code">
+              <MetaData>
+                <Value AttributeID="4879">0070</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Fax">
+              <MetaData>
+                <Value AttributeID="4879">0100</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Origin" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Brand">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Catering Style">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Cost Centre Type">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Drinks Supplier">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Mangd Investment Flag Code">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Outlet Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Segment">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Trading Status">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Brand">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Catering Style">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Cost Centre Type">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Drinks Supplier">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Mangd Investment Flag Code">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Outlet Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Segment">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Trading Status">
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Name" Mandatory="true">
+              <MetaData>
+                <Value AttributeID="4879">0005</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Outlet Additional Phone Numbers">
+              <MetaData>
+                <Value AttributeID="4879">0090</Value>
+              </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Workday Profile" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Brand Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Catering Style Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Cost Centre Type Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Drinks Supplier Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Lodge Type">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Lodge Type Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Mangd Investment Flag St Dt">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Segment Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Trading Status Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Mosaic Code">
+            </AttributeLink>
+            <AttributeLink AttributeID="Future - Mosaic Code Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Brand Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Catering Style Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Trading Status Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Mosaic Code Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Cost Centre Type Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Drinks Supplier Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Lodge Type" Mandatory="true">
+            </AttributeLink>
+            <AttributeLink AttributeID="Lodge Type Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Mangd Investment Flag Code Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Segment Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Brand Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Catering Style Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Cost Centre Type Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Drinks Supplier Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Lodge Type">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Lodge Type Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Mangd Investment Flag St Dt">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Segment Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Trading Status Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Mosaic Code">
+            </AttributeLink>
+            <AttributeLink AttributeID="Previous - Mosaic Code Start Date">
+            </AttributeLink>
+            <AttributeLink AttributeID="Mosaic Code">
+            </AttributeLink>
+
+          <Values>
+            <Value AttributeID="Bulk Approval Date">2011-12-05 15:55:01</Value>
+            <Value AttributeID="Preview" Derived="true" DerivedContextID="GL">http://mabprestepapp.stibo.corp/restapi/products/Outlets?xslt=</Value>
+          </Values>
+          <Product ID="England" UserTypeID="Outlet: Level 1" Selected="false">
+            <Name>England</Name>
+            <Values>
+              <Value AttributeID="Country Code">EN</Value>
+              <Value AttributeID="Preview" Derived="true" DerivedContextID="GL">http://mabprestepapp.stibo.corp/restapi/products/England?xslt=</Value>
+            </Values>
+            <Product ID="ExampleProduct123" UserTypeID="Outlet" Changed="true">
+              <Name Changed="true">ExampleProduct123</Name>                <ClassificationReference ClassificationID="Outlet Reporting-L5.280068" Type="Outlet - Outlet Reporting" Changed="true">
+                  <MetaData>
+  <Value AttributeID="Outlet - Outlet Reporting End Date" Changed="true">2099-01-01</Value>
+  <Value AttributeID="Outlet - Outlet Reporting Start Date" Changed="true">2012-06-25</Value>
+</MetaData>
+                </ClassificationReference>
+                <ClassificationReference ClassificationID="Outlet Reporting-L5.306450" Type="Outlet - Outlet Reporting" Changed="true">
+                  <MetaData>
+  <Value AttributeID="Outlet - Outlet Reporting End Date" Changed="true">2099-01-01</Value>
+  <Value AttributeID="Outlet - Outlet Reporting Start Date" Changed="true">2012-06-25</Value>
+</MetaData>
+                </ClassificationReference>
+                <ClassificationReference ClassificationID="Outlet Group.266470" Type="Ingredient_Outlet - Outlet Group" Changed="true">
+                  <MetaData>
+  <Value AttributeID="Outlet - Outlet Group Start Date" Changed="true">2012-02-01</Value>
+</MetaData>
+                </ClassificationReference>
+                <ClassificationReference ClassificationID="Outlet Group.257009" Type="Ingredient_Outlet - Outlet Group" Changed="true">
+                  <MetaData>
+  <Value AttributeID="Outlet - Outlet Group Start Date" Changed="true">2012-02-01</Value>
+</MetaData>
+                </ClassificationReference>
+                <ProductCrossReference ProductID="Price Band.0701" Type="Outlet - Price Band" Changed="true">
+                  <MetaData>
+  <Value AttributeID="Outlet - Price Band Start Date" Changed="true">2012-07-30</Value>
+  <Value AttributeID="Trading Area" Changed="true">000</Value>
+  <Value AttributeID="Level" Changed="true">Family - Other (3)</Value>
+</MetaData>
+                </ProductCrossReference>
+                <ProductCrossReference ProductID="Price Band.0012" Type="Outlet - Price Band" Changed="true">
+                  <MetaData>
+  <Value AttributeID="Outlet - Price Band Start Date" Changed="true">2012-05-02</Value>
+  <Value AttributeID="Trading Area" Changed="true">000</Value>
+  <Value AttributeID="Level" Changed="true">Family - Dry (2)</Value>
+</MetaData>
+                </ProductCrossReference>
+                <ProductCrossReference ProductID="Price Band.0015" Type="Outlet - Price Band" Changed="true">
+                  <MetaData>
+  <Value AttributeID="Outlet - Price Band Start Date" Changed="true">2012-02-01</Value>
+  <Value AttributeID="Trading Area" Changed="true">000</Value>
+  <Value AttributeID="Level" Changed="true">Family - Dry (2)</Value>
+</MetaData>
+                </ProductCrossReference>
+                <AssetCrossReference AssetID="ExampleAsset123" Type="Primary Image" Changed="true"/>
+
+              <Values>
+                <Value AttributeID="Segment" Changed="true">41 - ABO (City)</Value>
+                <Value AttributeID="Outlet Name" Changed="true">All Bar One Appold Street</Value>
+                <Value AttributeID="Workday Profile" Changed="true">SWS Monday - Friday</Value>
+                <Value AttributeID="Lodge Type" Changed="true">999 - No Rooms</Value>
+                <Value AttributeID="Outlet Phone Number" Changed="true">02073779671</Value>
+                <Value AttributeID="Mosaic Code" Changed="true">U99 - Unclassified</Value>
+                <Value AttributeID="Outlet Post Code" Changed="true">EC2A 2AS</Value>
+                <Value AttributeID="Census Enumeration District" Changed="true">E00008835</Value>
+                <Value AttributeID="Catering Style" Changed="true">99 - ABO Standard</Value>
+                <Value AttributeID="Outlet Email" Changed="true">bun165646@mbplc.com</Value>
+                <Value AttributeID="Cost Centre Type" Changed="true">ML - Managed Leasehold</Value>
+                <Value AttributeID="Bulk Approval Date" Changed="true">2012-04-26 17:01:19</Value>
+                <Value AttributeID="EPOS Implemented Indicator" Changed="true">9</Value>
+                <Value AttributeID="Drinks Supplier" Changed="true">Tradeteam</Value>
+                <Value AttributeID="Outlet Address Line 3" Changed="true">LONDON</Value>
+                <Value AttributeID="Outlet Address Line 4" Changed="true">Greater London</Value>
+                <Value AttributeID="EPOS Implemented Date" Changed="true">1998-08-04</Value>
+                <Value AttributeID="National Grid Reference" Changed="true">533214182038</Value>
+                <Value AttributeID="Brand" Changed="true">17 - All Bar One</Value>
+                <Value AttributeID="Origin" Changed="true">999 - Not Known</Value>
+                <Value AttributeID="Number of Licences" Changed="true">1</Value>
+                <Value AttributeID="ITV Region" Changed="true">London</Value>
+                <Value AttributeID="Mangd Investment Flag Code" Changed="true">000 - Uninvested (No. Investment)</Value>
+                <Value AttributeID="Trading Status" Changed="true">0 - Open for Trading</Value>
+                <Value AttributeID="Till Type" Changed="true">ABS Classc</Value>
+                <Value AttributeID="Outlet Address Line 1" Changed="true">18 Appold Street</Value>
+                <Value AttributeID="Type of Trade" Derived="true" DerivedContextID="GL">1 - Managed</Value>
+                <Value AttributeID="Category Code" Derived="true" DerivedContextID="GL">1 - Managed</Value>
+                <Value AttributeID="Preview" Derived="true" DerivedContextID="GL">http://mabprestepapp.stibo.corp/restapi/products/ExampleProduct123?xslt=</Value>
+              </Values>
+            </Product>
+          </Product>
+        </Product>
+      </Product>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
